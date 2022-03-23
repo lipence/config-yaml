@@ -1,10 +1,10 @@
-github.com/lipence/config v0.0.3 h1:kh1wiKZDiFm1L3g2ZpU0uHXNfUVaiE/0q6axuY14us8=
-github.com/lipence/config v0.0.3/go.mod h1:cb/gLBQIV86vrXt6iurU2qt38Cqsy1UrFppkxOhLB0k=
-github.com/lipence/gabs-yaml/v2 v2.6.1-yamlPatch2 h1:LcpJ2KxcJzQQ4EDfnA4vdOTkMXDxXc6uTAFMQv9tDcY=
-github.com/lipence/gabs-yaml/v2 v2.6.1-yamlPatch2/go.mod h1:MHOgx83WxrqHBNpjF2aBR74uI5p1HOheuphwYC3RiuQ=
+github.com/lipence/config v0.0.4 h1:+elX1d71PEimies36cjMpUiIUtcGC8MP9FjInxTko94=
+github.com/lipence/config v0.0.4/go.mod h1:cb/gLBQIV86vrXt6iurU2qt38Cqsy1UrFppkxOhLB0k=
+github.com/lipence/gabs-yaml/v2 v2.6.1-yamlPatch3 h1:lZPn8vx2GLZVukicxOB7Lg4kOiwAIf9cgJaZwQ+8GqQ=
+github.com/lipence/gabs-yaml/v2 v2.6.1-yamlPatch3/go.mod h1:bbdbVaXKvBUXwpnxrrUxc4u1VGzsxuX168ovWU8zgWI=
 github.com/lipence/utils v0.0.3 h1:P/ilnNccmyz0dnLgJoirMfHpNuht++DWinrfQ1yKUhs=
 github.com/lipence/utils v0.0.3/go.mod h1:DEf5PTj89+vI+B+ETG/qYJ253+Ea/QkP9HdC9O9vjJo=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405 h1:yhCVgyC4o1eVCa2tZl7eS0r+SDo693bJlVdllGtEeKM=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
-gopkg.in/yaml.v2 v2.4.0 h1:D8xgwECY7CYvx+Y2n4sBz93Jn9JRvxdiyyo8CTfuKaY=
-gopkg.in/yaml.v2 v2.4.0/go.mod h1:RDklbk79AGWmwhnvt/jBztapEOGDOx6ZbXqjP6csGnQ=
+gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b h1:h8qDotaEPuJATrMmW04NCwg7v22aHH28wwpauUhK9Oo=
+gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=

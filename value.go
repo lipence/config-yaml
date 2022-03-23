@@ -2,7 +2,6 @@ package yaml
 
 import (
 	"context"
-	"encoding/json"
 	"fmt"
 	"reflect"
 	"strconv"
@@ -10,6 +9,7 @@ import (
 	"github.com/lipence/config"
 	"github.com/lipence/config/utils"
 	"github.com/lipence/gabs-yaml/v2"
+	"gopkg.in/yaml.v3"
 )
 
 type listIterator struct {
@@ -109,10 +109,10 @@ func (v *value) DecodeWithCtx(ctx context.Context, target interface{}) (err erro
 		return nil
 	}
 	var jBytes []byte
-	if jBytes, err = v.Json(); err != nil {
+	if jBytes, err = v.result.MarshalYAML(); err != nil {
 		return fmt.Errorf("%w: (position: %s)", err, v.Ref())
 	}
-	return json.Unmarshal(jBytes, target)
+	return yaml.Unmarshal(jBytes, target)
 }
 
 func (v *value) String() (string, error) {
@@ -220,6 +220,6 @@ func (v *value) Kind() config.Kind {
 	}
 }
 
-func (v *value) Json() ([]byte, error) {
+func (v *value) Marshal() ([]byte, error) {
 	return v.result.MarshalYAML()
 }
